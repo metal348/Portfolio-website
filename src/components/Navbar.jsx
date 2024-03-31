@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <div className='flex justify-between items-center w-full h-20 text-white fixed'>
-            <div>
+            <div className='hidden sm:block'>
                 <h1 className='text-4xl font-signature ml-4'>Malav</h1>
             </div>
 
